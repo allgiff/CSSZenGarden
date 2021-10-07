@@ -78,6 +78,10 @@ body {
   padding: 1em;
 }
 
+#title {
+  color: #2a3b12;
+}
+
 section {
   background-color: white;
   padding: 1em;
