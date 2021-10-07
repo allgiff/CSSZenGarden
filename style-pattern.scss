@@ -5,6 +5,7 @@
 
 * {
   box-sizing: border-box;
+
 }
 
 html {
@@ -28,7 +29,7 @@ section {
 }
 
 .primary {
-  background-color: $primary;
+  background-color: $accent2;
 }
 
 .accent1 {
@@ -45,6 +46,7 @@ section {
 
 .element {
   border: 1px solid;
+  border-color: $background-color;
   margin: 0.5em;
   padding: 1em;
 }
