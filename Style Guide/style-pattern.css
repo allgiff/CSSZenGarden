@@ -65,7 +65,7 @@ a:hover {
 }
 
 html {
-  background-color: #2a3b12;
+  background-color: #1A535C;
   padding: 5%;
 }
 
@@ -79,7 +79,7 @@ body {
 }
 
 #title {
-  color: #2a3b12;
+  color: #1A535C;
 }
 
 section {
@@ -89,7 +89,7 @@ section {
 }
 
 .primary {
-  background-color: #849722;
+  background-color: #688B58;
 }
 
 .accent1 {
@@ -97,7 +97,7 @@ section {
 }
 
 .accent2 {
-  background-color: #849722;
+  background-color: #688B58;
 }
 
 .text-dark {
@@ -106,7 +106,7 @@ section {
 
 .element {
   border: 1px solid;
-  border-color: #2a3b12;
+  border-color: #1A535C;
   margin: 0.5em;
   padding: 1em;
 }
