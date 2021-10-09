@@ -13,20 +13,32 @@ button:hover {
   background-color: #974021;
 }
 
+h1 {
+  background: #d4653b;
+  color: #fff;
+  border-radius: 25em;
+  width: 75%;
+  font-weight: normal;
+  margin-bottom: 1em;
+  padding: 0.5em 1em;
+}
+
+a {
+  border-bottom: 2px solid #333;
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  border-color: #d4653b;
+  color: #688B58;
+}
+
 h2,
 h3,
 h4 {
   font-family: "arial narrow", Arial, Verdana, sans-serif;
   margin: 0;
-}
-
-h1 {
-  background: #d4653b;
-  color: #fff;
-  display: inline-block;
-  font-weight: normal;
-  margin-bottom: 1em;
-  padding: 0.5em 1em;
 }
 
 h2 {
@@ -62,17 +74,6 @@ p {
   line-height: 1.5em;
   padding: 0.5em 0;
   margin: 0;
-}
-
-a {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  color: #333;
-  text-decoration: none;
-  transition: border-color 0.2s ease-in-out;
-}
-
-a:hover {
-  border-color: #d4653b;
 }
 
 * {
