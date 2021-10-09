@@ -1,3 +1,18 @@
+button {
+  background-color: #d4653b;
+  font-family: sans-serif;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  padding: 1em;
+  border-radius: 5%;
+}
+
+button:hover {
+  background-color: #974021;
+}
+
 h2,
 h3,
 h4 {
@@ -105,22 +120,8 @@ section {
 }
 
 .element {
-  border: 1px solid;
+  border: 2px solid #1A535C;
   border-color: #1A535C;
   margin: 0.5em;
   padding: 1em;
-}
-
-.uppercase {
-  font-weight: 300;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #333;
-}
-
-.uppercase-light {
-  font-weight: 300;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #fff;
 }

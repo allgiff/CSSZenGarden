@@ -19,13 +19,31 @@
   color: $color;
 }
 
-@mixin divider($color: $accent1) {
+@mixin divider($color: $main-red) {
   border-top: 1px solid $color;
   margin-top: 1em;
   padding-top: 1.5em;
 }
 
 // these styles here should describe how the atoms (elements) should appear most of the time.  They can be overridden at the molecule (block) as necessary
+//new atoms
+
+button {
+  background-color: $main-red;
+  font-family: sans-serif;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  color: $text-light;
+  padding: 1em;
+  border-radius: 5%;
+}
+
+button:hover {
+  background-color: $dark-red;
+}
+
+//professor atoms
 h2,
 h3,
 h4 {
@@ -34,7 +52,7 @@ h4 {
 }
 
 h1 {
-  background: $accent1;
+  background: $main-red;
   color: $text-light;
   display: inline-block;
   font-weight: normal;
@@ -83,5 +101,5 @@ a {
 }
 
 a:hover {
-  border-color: $accent1;
+  border-color: $main-red;
 }

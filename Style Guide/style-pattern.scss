@@ -33,15 +33,15 @@ section {
 }
 
 .primary {
-  background-color: $accent2;
+  background-color: $light-green;
 }
 
 .accent1 {
-  background-color: $accent1;
+  background-color: $main-red;
 }
 
 .accent2 {
-  background-color: $accent2;
+  background-color: $light-green;
 }
 
 .text-dark {
@@ -49,16 +49,8 @@ section {
 }
 
 .element {
-  border: 1px solid;
+  border: 2px solid $background-color;
   border-color: $background-color;
   margin: 0.5em;
   padding: 1em;
-}
-
-.uppercase {
-  @include atoms.uppercase;
-}
-
-.uppercase-light {
-  @include atoms.uppercase($text-light);
 }
