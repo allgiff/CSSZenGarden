@@ -1,11 +1,6 @@
 @use 'variables'as *;
 
 // mixins to take care of repeated patterns.
-@mixin set-font($size: 1em, $line-height: normal, $font: $fonts-body) {
-  font-family: $font;
-  font-size: $size;
-  line-height: $line-height;
-}
 
 @mixin set-flex($direction: row, $wrap: wrap) {
   display: flex;
@@ -69,7 +64,7 @@ a:hover {
 h2,
 h3,
 h4 {
-  font-family: $fonts-headline;
+  font-family: $font1;
   margin: 0;
 }
 
@@ -98,10 +93,4 @@ h4 {
   letter-spacing: 1px;
   line-height: 1em;
   margin: 0.5em 0;
-}
-
-p {
-  @include set-font(1em, 1.5em);
-  padding: 0.5em 0;
-  margin: 0;
 }
