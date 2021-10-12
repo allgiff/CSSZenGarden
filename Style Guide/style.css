@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Amita:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@700&display=swap");
+.font-1 {
+  font-family: "amita", cursive;
+}
+
+.font-2 {
+  font-family: "Alegreya SC", serif;
+}
+
+button {
+  background-color: #d4653b;
+  font-family: sans-serif;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  padding: 1em;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: #974021;
+}
+
+h1 {
+  background: #d4653b;
+  color: #fff;
+  border-radius: 25em;
+  width: 75%;
+  font-weight: normal;
+  margin-bottom: 1em;
+  padding: 0.5em 1em;
+}
+
+a {
+  border-bottom: 2px solid #333;
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  border-color: #d4653b;
+  color: #688B58;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Amita";
+  margin: 0;
+}
+
+h2 {
+  color: #fff;
+  font-weight: 900;
+  /* Heavy */
+  font-size: 6em;
+  letter-spacing: 1px;
+  line-height: 1em;
+}
+
+h3 {
+  font-size: 2.25em;
+  font-weight: 200;
+  /* Thin */
+  letter-spacing: 1px;
+  line-height: 1em;
+  padding: 0.5em 0 0.25em 0;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-weight: 200;
+  /* Thin */
+  letter-spacing: 1px;
+  line-height: 1em;
+  margin: 0.5em 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #1A535C;
+  padding: 5%;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 85%;
+  color: #333;
+  background-color: #e3e6d3;
+  margin: 0;
+  padding: 1em;
+}
+
+#title {
+  color: #1A535C;
+}
+
+section {
+  background-color: white;
+  padding: 1em;
+  margin: 1em;
+}
+
+.primary {
+  background-color: #688B58;
+}
+
+.accent1 {
+  background-color: #d4653b;
+}
+
+.accent2 {
+  background-color: #688B58;
+}
+
+.text-dark {
+  background-color: #333;
+}
+
+.element {
+  border: 2px solid #1A535C;
+  border-color: #1A535C;
+  margin: 0.5em;
+  padding: 1em;
+}
