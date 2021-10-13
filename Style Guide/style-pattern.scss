@@ -23,11 +23,10 @@ body {
 }
 
 #title {
-  color: $background-color;
+  color: $light-green;
 }
 
 section {
-  background-color: white;
   padding: 1em;
   margin: 1em;
 }
@@ -53,4 +52,12 @@ section {
   border-color: $background-color;
   margin: 0.5em;
   padding: 1em;
+}
+
+.uppercase-light {
+  color: white;
+}
+
+#line {
+  color: white;
 }

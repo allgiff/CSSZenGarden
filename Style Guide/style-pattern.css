@@ -34,14 +34,14 @@ h1 {
 }
 
 a {
-  border-bottom: 2px solid #333;
-  color: #333;
+  border-bottom: 2px solid #193441;
+  color: #193441;
   text-decoration: none;
 }
 
 a:hover {
   border-color: #d4653b;
-  color: #688B58;
+  color: #3E606F;
 }
 
 h2,
@@ -52,7 +52,7 @@ h4 {
 }
 
 h2 {
-  color: #fff;
+  color: #91AA9D;
   font-weight: 900;
   /* Heavy */
   font-size: 6em;
@@ -83,31 +83,30 @@ h4 {
 }
 
 html {
-  background-color: #1A535C;
+  background-color: #91AA9D;
   padding: 5%;
 }
 
 body {
   font-family: "Arial", sans-serif;
   font-size: 85%;
-  color: #333;
-  background-color: #e3e6d3;
+  color: #193441;
+  background-color: #FCFFF5;
   margin: 0;
   padding: 1em;
 }
 
 #title {
-  color: #1A535C;
+  color: #3E606F;
 }
 
 section {
-  background-color: white;
   padding: 1em;
   margin: 1em;
 }
 
 .primary {
-  background-color: #688B58;
+  background-color: #3E606F;
 }
 
 .accent1 {
@@ -115,16 +114,24 @@ section {
 }
 
 .accent2 {
-  background-color: #688B58;
+  background-color: #3E606F;
 }
 
 .text-dark {
-  background-color: #333;
+  background-color: #193441;
 }
 
 .element {
-  border: 2px solid #1A535C;
-  border-color: #1A535C;
+  border: 2px solid #91AA9D;
+  border-color: #91AA9D;
   margin: 0.5em;
   padding: 1em;
+}
+
+.uppercase-light {
+  color: white;
+}
+
+#line {
+  color: white;
 }
