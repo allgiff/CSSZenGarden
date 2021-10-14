@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Amita:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@700&display=swap");
 .font-1 {
-  font-family: "amita", cursive;
+  font-family: "amita", serif;
 }
 
 .font-2 {
@@ -14,7 +14,7 @@ button {
   border: none;
   text-align: center;
   text-decoration: none;
-  color: #fff;
+  color: #FCFFF5;
   padding: 1em;
   border-radius: 15px;
 }
@@ -23,14 +23,15 @@ button:hover {
   background-color: #974021;
 }
 
-h1 {
+h2 {
   background: #d4653b;
-  color: #fff;
+  color: #FCFFF5;
   border-radius: 25em;
-  width: 75%;
+  width: 50%;
   font-weight: normal;
   margin-bottom: 1em;
   padding: 0.5em 1em;
+  font-family: "amita", serif;
 }
 
 a {
@@ -44,20 +45,20 @@ a:hover {
   color: #3E606F;
 }
 
-h2,
 h3,
 h4 {
-  font-family: "Amita";
+  font-family: "Alegreya SC", serif;
   margin: 0;
 }
 
-h2 {
-  color: #91AA9D;
+h1 {
+  color: #3E606F;
   font-weight: 900;
   /* Heavy */
   font-size: 6em;
   letter-spacing: 1px;
   line-height: 1em;
+  font-family: "amita", serif;
 }
 
 h3 {
@@ -96,17 +97,17 @@ body {
   padding: 1em;
 }
 
-#title {
-  color: #3E606F;
-}
-
 section {
   padding: 1em;
   margin: 1em;
 }
 
-.primary {
-  background-color: #3E606F;
+h1 {
+  font-family: "amita", serif;
+}
+
+h2 {
+  font-family: "Alegreya SC", serif;
 }
 
 .accent1 {
@@ -130,6 +131,8 @@ section {
 
 .uppercase-light {
   color: white;
+  background-color: #3E606F;
+  padding: 10px;
 }
 
 #line {

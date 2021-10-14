@@ -1,24 +1,5 @@
 @use 'variables'as *;
 
-// mixins to take care of repeated patterns.
-
-@mixin set-flex($direction: row, $wrap: wrap) {
-  display: flex;
-  flex-flow: $direction $wrap;
-}
-
-@mixin uppercase($color: $text-dark) {
-  font-weight: 300;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: $color;
-}
-
-@mixin divider($color: $main-red) {
-  border-top: 1px solid $color;
-  margin-top: 1em;
-  padding-top: 1.5em;
-}
 
 // these styles here should describe how the atoms (elements) should appear most of the time.  They can be overridden at the molecule (block) as necessary
 
@@ -39,14 +20,15 @@ button:hover {
   background-color: $dark-red;
 }
 
-h1 {
+h2 {
   background: $main-red;
   color: $text-light;
   border-radius: 25em;
-  width: 75%;
+  width: 50%;
   font-weight: normal;
   margin-bottom: 1em;
   padding: .5em 1em;
+  font-family: $font1;
 }
 
 a {
@@ -61,20 +43,20 @@ a:hover {
 }
 
 //professor atoms
-h2,
 h3,
 h4 {
-  font-family: $font1;
+  font-family: $font2;
   margin: 0;
 }
 
-h2 {
-  color: $background-color;
+h1 {
+  color: $light-green;
   font-weight: 900;
   /* Heavy */
   font-size: 6em;
   letter-spacing: 1px;
   line-height: 1em;
+  font-family: $font1;
 }
 
 h3 {

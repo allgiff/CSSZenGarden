@@ -1,26 +1,64 @@
-h2,
+@import url("https://fonts.googleapis.com/css2?family=Amita:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@700&display=swap");
+.font-1 {
+  font-family: "amita", serif;
+}
+
+.font-2 {
+  font-family: "Alegreya SC", serif;
+}
+
+button {
+  background-color: #d4653b;
+  font-family: sans-serif;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  color: #FCFFF5;
+  padding: 1em;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: #974021;
+}
+
+h2 {
+  background: #d4653b;
+  color: #FCFFF5;
+  border-radius: 25em;
+  width: 50%;
+  font-weight: normal;
+  margin-bottom: 1em;
+  padding: 0.5em 1em;
+  font-family: "amita", serif;
+}
+
+a {
+  border-bottom: 2px solid #193441;
+  color: #193441;
+  text-decoration: none;
+}
+
+a:hover {
+  border-color: #d4653b;
+  color: #3E606F;
+}
+
 h3,
 h4 {
-  font-family: "arial narrow", Arial, Verdana, sans-serif;
+  font-family: "amita", serif;
   margin: 0;
 }
 
 h1 {
-  background: #d4653b;
-  color: #d4653b;
-  display: inline-block;
-  font-weight: normal;
-  margin-bottom: 1em;
-  padding: 0.5em 1em;
-}
-
-h2 {
-  color: #fff;
+  color: #3E606F;
   font-weight: 900;
   /* Heavy */
   font-size: 6em;
   letter-spacing: 1px;
   line-height: 1em;
+  font-family: "amita", serif;
 }
 
 h3 {
@@ -41,51 +79,13 @@ h4 {
   margin: 0.5em 0;
 }
 
-p {
-  font-family: verdana, arial, sans-serif;
-  font-size: 1em;
-  line-height: 1.5em;
-  padding: 0.5em 0;
-  margin: 0;
-}
-
 a {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  color: #333;
-  text-decoration: none;
-  transition: border-color 0.2s ease-in-out;
-}
-
-a:hover {
-  border-color: #d4653b;
-}
-
-[role=banner] > h1 {
-  font-weight: 300;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #fff;
-}
-
-.summary {
-  font-weight: 300;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #fff;
-  padding: 15% 0;
-}
-.summary p:last-child {
-  border-top: 1px solid #d4653b;
-  margin-top: 1em;
-  padding-top: 1.5em;
-}
-.summary a {
-  color: #fff;
+  color: #FCFFF5;
 }
 
 .preamble {
   background: rgba(255, 255, 255, 0.9);
-  color: #333;
+  color: #193441;
   margin-left: -30%;
   padding: 5% 5% 5% 30%;
 }
