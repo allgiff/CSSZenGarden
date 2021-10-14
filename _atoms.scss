@@ -1,0 +1,38 @@
+@use 'variables'as *;
+
+html {
+    background-color: $background-color;
+    display: block;
+    padding: 5%;
+}
+
+body {
+    background-color: $primary;
+    padding: 1em;
+}
+
+button {
+    background-color: $main-red;
+    font-family: sans-serif;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    color: $text-light;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: $dark-red;
+}
+
+a {
+    border-bottom: 2px solid $text-dark;
+    color: $text-dark;
+    text-decoration: none;
+}
+
+a:hover {
+    border-color: $main-red;
+    color: $main-blue;
+}

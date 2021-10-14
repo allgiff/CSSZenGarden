@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Amita:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@700&display=swap");
+.font-1 {
+  font-family: "amita", cursive;
+}
+
+.font-2 {
+  font-family: "Alegreya SC", serif;
+}
+
+html {
+  background-color: #91AA9D;
+  display: block;
+  padding: 5%;
+}
+
+body {
+  background-color: #FCFFF5;
+  padding: 1em;
+}
+
+button {
+  background-color: #d4653b;
+  font-family: sans-serif;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  padding: 1em;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: #974021;
+}
+
+a {
+  border-bottom: 2px solid #193441;
+  color: #193441;
+  text-decoration: none;
+}
+
+a:hover {
+  border-color: #d4653b;
+  color: #3E606F;
+}
