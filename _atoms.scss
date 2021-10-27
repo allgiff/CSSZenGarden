@@ -9,6 +9,24 @@ html {
 body {
     background-color: $primary;
     padding: 1em;
+    font-family: $fonts-body;
+}
+
+h1 {
+    color: $main-blue;
+    font-weight: 900;
+    font-size: 6em;
+    letter-spacing: 1px;
+    line-height: 1em;
+    font-family: $font1;
+}
+
+h2,
+h3,
+h4 {
+    font-family: $font2;
+    margin: 0;
+    color: $main-red;
 }
 
 button {
