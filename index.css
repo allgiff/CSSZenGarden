@@ -15,10 +15,17 @@ html {
   padding: 5%;
 }
 
+header {
+  background-image: url("https://allgiff.github.io/CSSZenGarden/images/header-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 1300px 300px;
+}
+
 body {
   background-color: #FCFFF5;
   padding: 1em;
   font-family: "Arial", sans-serif;
+  text-align: justify;
 }
 
 h1 {
@@ -62,8 +69,4 @@ a {
 a:hover {
   border-color: #d4653b;
   color: #3E606F;
-}
-
-.header {
-  background-color: #91AA9D;
 }
