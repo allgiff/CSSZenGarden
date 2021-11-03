@@ -35,7 +35,7 @@ body {
 }
 
 h1 {
-  color: #3E606F;
+  color: #FCFFF5;
   font-weight: 900;
   font-size: 6em;
   letter-spacing: 1px;
@@ -43,7 +43,12 @@ h1 {
   font-family: "amita", serif;
 }
 
-h2,
+h2 {
+  font-family: "Montserrat", serif;
+  margin: 0;
+  color: #FCFFF5;
+}
+
 h3,
 h4 {
   font-family: "Montserrat", serif;
