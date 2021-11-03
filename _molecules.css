@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Amita:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.font-1 {
+  font-family: "amita", serif;
+}
+
+.font-2 {
+  font-family: "Montserrat", serif;
+}
+
+html {
+  background-color: #91AA9D;
+  display: block;
+  padding: 5%;
+}
+
+body {
+  background-color: #FCFFF5;
+  padding: 1em;
+  font-family: "Arial", sans-serif;
+}
+
+h1 {
+  color: #3E606F;
+  font-weight: 900;
+  font-size: 6em;
+  letter-spacing: 1px;
+  line-height: 1em;
+  font-family: "amita", serif;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Montserrat", serif;
+  margin: 0;
+  color: #d4653b;
+}
+
+p {
+  text-align: justify;
+}
+
+button {
+  background-color: #d4653b;
+  font-family: sans-serif;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  color: #FCFFF5;
+  padding: 1em;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: #974021;
+}
+
+a {
+  border-bottom: 2px solid #193441;
+  color: #193441;
+  text-decoration: none;
+}
+
+a:hover {
+  border-color: #d4653b;
+  color: #3E606F;
+}
+
+header {
+  background: transparent url() no-repeat top left;
+}
