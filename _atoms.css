@@ -19,9 +19,8 @@ header {
   height: 230px;
   padding: 20px 0 70px 0;
   background: #2d6360 20% 0 url("https://allgiff.github.io/CSSZenGarden/images/head-4%20copy.jpg") no-repeat;
-  background-attachment: fixed, fixed, fixed, scroll;
   background-image: url("https://allgiff.github.io/CSSZenGarden/images/head-4%20copy.jpg");
-  background-position: 0% 90%;
+  background-position: 0% 60%;
   background-repeat: repeat, repeat, repeat, no-repeat;
   background-size: auto, auto, auto, cover;
   text-align: center;
