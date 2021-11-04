@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Amita:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap");
 .font-1 {
-  font-family: "amita", serif;
+  font-family: "Charmonman", serif;
 }
 
 .font-2 {
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", sans-serif;
 }
