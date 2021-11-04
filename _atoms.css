@@ -21,8 +21,7 @@ header {
   background: #2d6360 20% 0 url("https://allgiff.github.io/CSSZenGarden/images/head-4%20copy.jpg") no-repeat;
   background-image: url("https://allgiff.github.io/CSSZenGarden/images/head-4%20copy.jpg");
   background-position: 0% 60%;
-  background-repeat: repeat, repeat, repeat, no-repeat;
-  background-size: auto, auto, auto, cover;
+  background-size: cover;
   text-align: center;
 }
 
