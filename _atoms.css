@@ -77,6 +77,11 @@ a {
   text-decoration: none;
 }
 
+a:link {
+  color: #d4653b;
+  border-bottom: 2px solid #3E606F;
+}
+
 a:hover {
   border-color: #d4653b;
   color: #3E606F;

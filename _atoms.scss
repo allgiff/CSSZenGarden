@@ -69,6 +69,11 @@ a {
     text-decoration: none;
 }
 
+a:link {
+    color: $main-red;
+    border-bottom: 2px solid $main-blue;
+}
+
 a:hover {
     border-color: $main-red;
     color: $main-blue;
