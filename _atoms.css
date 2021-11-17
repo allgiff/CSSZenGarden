@@ -72,18 +72,18 @@ button:hover {
 }
 
 a {
-  border-bottom: 2px solid #193441;
+  border-bottom: none;
   color: #193441;
   text-decoration: none;
 }
 
 a:link {
   color: #d4653b;
-  border-bottom: 2px solid #3E606F;
+  border-bottom: none;
 }
 
 a:hover {
-  border-color: #d4653b;
+  border-bottom: none;
   color: #3E606F;
 }
 
@@ -160,4 +160,13 @@ ul {
 footer {
   text-align: center;
   font-size: 0.9em;
+}
+
+.wrapper a {
+  color: #193441;
+  border-bottom: none;
+}
+
+.wrapper h3 {
+  color: #193441;
 }

@@ -64,18 +64,18 @@ button:hover {
 }
 
 a {
-    border-bottom: 2px solid $text-dark;
+    border-bottom: none;
     color: $text-dark;
     text-decoration: none;
 }
 
 a:link {
     color: $main-red;
-    border-bottom: 2px solid $main-blue;
+    border-bottom: none;
 }
 
 a:hover {
-    border-color: $main-red;
+    border-bottom: none;
     color: $main-blue;
 }
 
@@ -155,4 +155,13 @@ ul {
 footer {
     text-align: center;
     font-size: 0.9em;
+}
+
+.wrapper a {
+    color: $text-dark;
+    border-bottom: none;
+}
+
+.wrapper h3 {
+    color: $text-dark;
 }
