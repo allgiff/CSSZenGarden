@@ -79,6 +79,30 @@ a:hover {
     color: $main-blue;
 }
 
+[role=article] {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+#zen-explanation {
+    margin-top: 0;
+}
+
+#zen-explanation,
+#zen-benefits {
+    background-color: $background-color;
+    max-width: 100%;
+    overflow: hidden;
+
+    p {
+        color: $text-light;
+    }
+
+    h3 {
+        color: $primary;
+    }
+}
+
 /*********************************************************************************/
 .summary {
     font-style: italic;
@@ -90,6 +114,7 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding-bottom: 60px;
+    grid-gap: 1em;
 }
 
 #zen-intro {
@@ -111,6 +136,11 @@ a:hover {
     grid-row: 2;
     max-width: 75%;
     margin: 0 auto;
+}
+
+#zen-explanation,
+#zen-benefits {
+    width: 100%;
 }
 
 .sidebar {
@@ -165,3 +195,6 @@ footer {
 .wrapper h3 {
     color: $text-dark;
 }
+
+/*mobile view*/
+@media only screen and (max-width: 768px) {}
