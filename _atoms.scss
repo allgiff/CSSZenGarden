@@ -1,5 +1,11 @@
 @use 'variables'as *;
 
+@mixin color-box {
+    background-color: $background-color;
+    height: 100px;
+    width: 100%;
+}
+
 html {
     background-color: $background-color;
     display: block;
@@ -110,10 +116,8 @@ a:hover {
 }
 
 .colorBox1 {
-    background-color: $background-color;
     margin: 0 0;
-    height: 100px;
-    width: 100%;
+    @include color-box()
 }
 
 .sidebar {
@@ -124,6 +128,7 @@ a:hover {
     background-size: 400% 400%;
     animation: Animation 15s linear infinite;
     max-height: 900px;
+    max-width: 300px;
     padding: 10px;
 }
 
