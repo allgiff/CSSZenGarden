@@ -109,15 +109,22 @@ a:hover {
     font-size: 0.9em;
 }
 
+.colorBox1 {
+    background-color: $background-color;
+    margin: 0 0;
+    height: 100px;
+    width: 100%;
+}
+
 .sidebar {
-    grid-column: 5/6;
-    grid-row: 2;
     text-align: right;
     margin-right: 70px;
     margin-left: -20px;
     background: linear-gradient(0deg, #98BABB 0%, white 2%, #98BABB 20%, white 22%, #98BABB 35%, white 37%, #98BABB 50%, white 52%, #98BABB 65%, white 67%, #98BABB 80%, white 82%, #98BABB 95%);
     background-size: 400% 400%;
     animation: Animation 15s linear infinite;
+    max-height: 900px;
+    padding: 10px;
 }
 
 @keyframes Animation {
@@ -197,10 +204,8 @@ footer {
         width: 100%;
     }
 
-    .colorBox1 {
-        background-color: $background-color;
-        float: left;
-        height: 400px;
-        width: 100%;
+    .sidebar {
+        grid-column: 5/6;
+        grid-row: 2;
     }
 }
