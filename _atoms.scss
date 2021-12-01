@@ -2,14 +2,14 @@
 
 @mixin color-box {
     background-color: $background-color;
-    height: 100px;
+    height: 300px;
     width: 100%;
 }
 
 html {
     background-color: $background-color;
     display: block;
-    padding: 5%;
+    padding: 1em;
 }
 
 header {
@@ -26,8 +26,8 @@ header {
 
 body {
     background-color: $primary;
-    padding: 1em;
     font-family: $fonts-body;
+    margin: 1em;
 }
 
 h1 {
@@ -115,9 +115,8 @@ a:hover {
     font-size: 0.9em;
 }
 
-.colorBox1 {
-    margin: 0 0;
-    @include color-box()
+.colorBox2 {
+    @include color-box();
 }
 
 .sidebar {
@@ -183,6 +182,13 @@ footer {
         grid-gap: 1em;
     }
 
+    .colorBox1 {
+        margin: 0 0;
+        grid-column: 1;
+        grid-row: 2;
+        @include color-box();
+    }
+
     #zen-intro {
         grid-column: 1/6;
         grid-row: 1;
@@ -206,6 +212,10 @@ footer {
 
     #zen-explanation,
     #zen-benefits {
+        width: 100%;
+    }
+
+    .explanation {
         width: 100%;
     }
 
