@@ -2,7 +2,7 @@
 
 @mixin color-box {
     background-color: $background-color;
-    height: 300px;
+    height: 78%;
     width: 100%;
 }
 
@@ -115,6 +115,21 @@ a:hover {
     font-size: 0.9em;
 }
 
+.extra4 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.colorBox1 {
+    margin: 0 0;
+    grid-column: 1;
+    @include color-box();
+}
+
+.explanation {
+    grid-column: 2;
+}
+
 .colorBox2 {
     @include color-box();
 }
@@ -180,13 +195,6 @@ footer {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         padding-bottom: 60px;
         grid-gap: 1em;
-    }
-
-    .colorBox1 {
-        margin: 0 0;
-        grid-column: 1;
-        grid-row: 2;
-        @include color-box();
     }
 
     #zen-intro {
