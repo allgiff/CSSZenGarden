@@ -106,12 +106,18 @@ a:hover {
 }
 
 #zen-explanation p,
-#zen-benefits p,
+#zen-benefits p {
+    color: #FCFFF5;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
 #zen-explanation h3,
 #zen-benefits h3 {
   color: #FCFFF5;
   padding-right: 2%;
   padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .summary {
