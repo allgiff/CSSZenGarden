@@ -219,7 +219,7 @@ footer {
 footer {
   height: 200px;
   width: 100%;
-  background-image: url(./images/koipond4.png);
+  background-image: url("https://allgiff.github.io/CSSZenGarden/images/koipond4.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: -30px;
@@ -355,7 +355,7 @@ footer {
       grid-column: 1/6;
       grid-row: 5;
       margin: 0 auto;
-      height: 300px;
+      height: 200px;
       width: 100%;
     }
 }
