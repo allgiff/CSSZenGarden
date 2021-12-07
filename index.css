@@ -57,6 +57,15 @@ h4 {
   font-weight: 700;
 }
 
+.preamble h3 {
+  text-align: center;
+  margin-top: -50px;
+}
+
+#zen-preamble {
+  margin-bottom: -60px;
+}
+
 button {
   background-color: #d4653b;
   font-family: sans-serif;
@@ -75,6 +84,8 @@ button:hover {
 p {
   font-size: 1em;
   line-height: 1.2em;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 a {
@@ -106,18 +117,10 @@ a:hover {
 }
 
 #zen-explanation p,
-#zen-benefits p {
-    color: #FCFFF5;
-    padding-right: 2%;
-    padding-bottom: 2%;
-}
-
+#zen-benefits p,
 #zen-explanation h3,
 #zen-benefits h3 {
   color: #FCFFF5;
-  padding-right: 2%;
-  padding-top: 2%;
-  padding-bottom: 2%;
 }
 
 .summary {
@@ -132,7 +135,7 @@ a:hover {
   background: linear-gradient(0deg, #98BABB 0%, white 2%, #98BABB 20%, white 22%, #98BABB 35%, white 37%, #98BABB 50%, white 52%, #98BABB 65%, white 67%, #98BABB 80%, white 82%, #98BABB 95%);
   background-size: 400% 400%;
   animation: Animation 15s linear infinite;
-  max-height: 1000px;
+  max-height: 100%;
   max-width: 350px;
   padding: 10px;
 }
@@ -187,11 +190,63 @@ footer {
   margin-top: 0;
 }
 
+#zen-explanation h3,
+#zen-benefits h3 {
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#zen-explanation p,
+#zen-benefits p {
+  margin-top: 0;
+  padding-bottom: 20px;
+}
+
+.participation h3,
+.requirements h3 {
+  margin-top: -60px;
+}
+
+.participation {
+  margin-bottom: -50px;
+}
+
+.requirements {
+  margin-bottom: 20px;
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  background-image: url(./images/koipond4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: -30px;
+}
+
 @media only screen and (min-width: 768px) {
   body {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 1em;
   }
+
+    h1 {
+      margin-top: 60px;
+    }
+
+    h2 {
+      margin-top: -1em;
+    }
+
+    h3,
+    h4 {
+      padding: 0;
+    }
+
+    p {
+      padding: 0;
+    }
 
   .page-wrapper {
     display: grid;
@@ -211,6 +266,10 @@ footer {
     margin-bottom: 2.5em;
     margin-top: 2.5em;
   }
+
+    .preamble h3 {
+      margin-top: 0px;
+    }
 
   #zen-supporting {
     grid-column: 1/5;
@@ -248,6 +307,7 @@ footer {
     grid-column: 1/5;
     padding-left: 25%;
     padding-right: 10%;
+    margin-bottom: 20px;
   }
 
   .benefits {
@@ -272,6 +332,13 @@ footer {
     padding-left: 25%;
   }
 
+    #zen-explanation p,
+    #zen-benefits p,
+    #zen-explanation h3,
+    #zen-benefits h3 {
+      padding-right: 10%;
+    }
+
   .requirements {
     grid-column: 1/5;
     padding-left: 25%;
@@ -283,4 +350,12 @@ footer {
     grid-row: 2;
     /*margin-left: -25%;*/
   }
+
+    footer {
+      grid-column: 1/6;
+      grid-row: 5;
+      margin: 0 auto;
+      height: 300px;
+      width: 100%;
+    }
 }
